@@ -1,4 +1,4 @@
 node_modules
 .vscode
 npm-debug.log
-no-secrets-dont-look-mum.js
+no-secrets-dont-look-mum.json
