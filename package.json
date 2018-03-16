@@ -1,0 +1,27 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "learningDiscordjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "joe",
+    "is",
+    "really",
+    "cool",
+    "and",
+    "smart",
+    "hehe"
+  ],
+  "author": "joe :)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "mz": "^2.7.0",
+    "nodemon": "^1.17.2"
+  }
+}
