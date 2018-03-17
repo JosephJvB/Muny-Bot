@@ -7,9 +7,16 @@ Hi this repo is where I'm going to be playing with discord.js to create a bot fo
 
 Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab and play with the bot. Muny-bot is still young and impressionable, so I won't hesitate to ban you if I think you're going to lead Muny-bot astray.
 
-TODOS: //
-* thinking about structure of bot.
+FILE STRUCTURE: //
 
-  -> index contains `Client.on(*action*)'s`
 
-  -> imports modules/functions to deal with the 'action' cases.
+  -> A top level index. Contains `Client.on(*event*)'s`
+
+  -> imports bot modules (event handlers) to deal with the 'event' cases.
+  - eg: { handle_message, handle_ready ... } = require('./bot')
+
+SYNTAX: //
+
+I'm having a go at not using camelCase:
+  - kebab case for file names. `kebab-case`
+  - train case for variables. `train_case`

@@ -61,3 +61,61 @@ fourfivesiz
 @[10:58:32] Muny-bot: <@191392978588139530>, You must tag a user to kick them :)
 @[10:58:39] ayoitsjoe: !kick <@191392978588139530>
 @[10:58:40] Muny-bot: <@191392978588139530>, you wanna kick ayoitsjoe?
+@[16:34:47] ayoitsjoe: !kick
+@[16:34:48] Muny-bot: <@191392978588139530>, You must tag a user to kick them :)
+@[16:34:51] ayoitsjoe: !woo
+@[16:35:07] ayoitsjoe: !list-args one two three fourfive
+@[16:35:07] Muny-bot: <@191392978588139530>, Please give me some arguments to list!
+@[16:35:58] ayoitsjoe: !list-args one two three
+@[16:35:59] Muny-bot: <@191392978588139530>, Please give me some arguments to list!
+@[16:36:08] ayoitsjoe: !list-args
+@[16:36:09] Muny-bot: <@191392978588139530>, Please give me some arguments to list!
+@[16:36:17] ayoitsjoe: !list-args one two three
+@[16:36:17] Muny-bot: <@191392978588139530>, Please give me some arguments to list!
+@[16:36:41] ayoitsjoe: !list-args on two threeeeee
+@[16:36:42] Muny-bot: Your args, m'lady:
+@[16:37:17] ayoitsjoe: !list-args one twwwwwo
+@[16:37:18] Muny-bot: Your args, m'lady:
+@[16:39:01] ayoitsjoe: !list-args NONAGON NONAGON NONAGON INFINITY YES
+@[16:39:01] Muny-bot: Your args, m'lady: NONAGON,NONAGON,NONAGON,INFINITY,YES
+@[16:40:18] ayoitsjoe: !list-args ononon twtwtwo thrthrthree
+@[16:40:18] Muny-bot: Your args, m'lady: ononon,twtwtwo,thrthrthree
+@[16:40:39] ayoitsjoe: !list-args hi hi hi hi
+@[16:40:40] Muny-bot: Your args, m'lady: hi,hi,hi,hi
+@[16:41:29] ayoitsjoe: !list-args new args on new lines?
+@[16:41:29] Muny-bot: Your args, m'lady: new 
+ args 
+ on 
+ new 
+ lines?
+@[16:41:57] ayoitsjoe: !list-args how about them apples
+@[16:41:57] Muny-bot: Your args, m'lady:
+how 
+ about 
+ them 
+ apples
+@[16:42:15] ayoitsjoe: !list-args these apples are tasty
+@[16:42:15] Muny-bot: Your args, m'lady:
+ these 
+ apples 
+ are 
+ tasty
+@[16:42:28] ayoitsjoe: very good thankee
+@[16:44:34] ayoitsjoe: !kick <@423969541874515968>
+@[16:44:35] Muny-bot: <@191392978588139530>, you wanna kick Muny-bot?
+@[16:45:14] ayoitsjoe: !list-args im gonna drink with my friends tonight
+@[16:45:14] Muny-bot: Your args, m'lady:
+ im 
+ gonna 
+ drink 
+ with 
+ my 
+ friends 
+ tonight
+@[16:45:22] ayoitsjoe: thx 😃
+@[16:48:50] ayoitsjoe: !list-args new arg format
+@[16:48:51] Muny-bot: Your args, m'lady:
+ new, arg, format
+@[16:49:07] ayoitsjoe: !list-args maybe no new line
+@[16:49:08] Muny-bot: Your args, m'lady: maybe, no, new, line
+@[16:49:15] ayoitsjoe: thx 😃
