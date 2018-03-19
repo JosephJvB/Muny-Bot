@@ -6,6 +6,12 @@
 
 make bot recognise emoji commands
 
+I want to do a delete / bulkDelete command.
+I wonder what happens to the logs when a delete command is sent? Will it delete the messages from the logs?
+
+Im sure I could create a case where no delete occurs, or even cooler would be to not delete AND indicate messages that have been deleted from the server.
+
+EVENTS TO HANDLE: //
 
 ```
 Client.on('*')

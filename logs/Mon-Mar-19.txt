@@ -1,0 +1,23 @@
+BIG SMILE, NEW FILE
+
+@[18:16:33] ayoitsjoe: !skrrr
+@[18:16:33] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[18:16:51] ayoitsjoe: !Ello guvnor
+@[18:16:51] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[18:22:53] ayoitsjoe: !kick
+@[18:22:53] Muny-bot: You must tag a user to kick them :)
+@[18:23:00] ayoitsjoe: !kick @ayoitsjoe#3498
+@[18:23:01] Muny-bot: You must tag a user to kick them :)
+@[18:23:08] ayoitsjoe: !kick <@423969541874515968>
+@[18:23:09] Muny-bot: you wanna kick Muny-bot?
+@[18:23:31] ayoitsjoe: !kick @ayoitsjoe
+@[18:23:32] Muny-bot: You must tag a user to kick them :)
+@[18:23:43] ayoitsjoe: !kick <@423969541874515968>
+@[18:23:44] Muny-bot: you wanna kick Muny-bot?
+@[18:30:24] ayoitsjoe: !args
+@[18:30:24] Muny-bot: <@191392978588139530>, Please give me some arguments to list!
+@[18:30:32] ayoitsjoe: !args one two threefour
+@[18:30:32] Muny-bot: Your args, m'lady: one, two, threefour
+@[18:30:41] ayoitsjoe: oh hell yeah thanks my man
+@[18:34:38] ayoitsjoe: !where
+@[18:34:39] Muny-bot: We are in text

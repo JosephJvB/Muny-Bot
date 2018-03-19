@@ -119,3 +119,5 @@ how
 @[16:49:07] ayoitsjoe: !list-args maybe no new line
 @[16:49:08] Muny-bot: Your args, m'lady: maybe, no, new, line
 @[16:49:15] ayoitsjoe: thx 😃
+@[16:58:23] ayoitsjoe: !kick <@423969541874515968>
+@[16:58:24] Muny-bot: you wanna kick Muny-bot?
