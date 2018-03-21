@@ -1,0 +1,18 @@
+BIG SMILE, NEW FILE
+
+@[12:51:37] ayoitsjoe: !clue
+@[12:51:37] Muny-bot: Come on, you didn't think it would be that easy did you?
+@[12:52:01] ayoitsjoe: !yes
+@[12:52:02] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[12:52:18] ayoitsjoe: !clue
+@[12:52:19] Muny-bot: Come on, you didn't think it would be that easy did you?
+@[12:53:31] ayoitsjoe: !clue
+@[12:53:32] Muny-bot: Come on, you didn't think it would be that easy did you?
+@[12:54:37] ayoitsjoe: !clue
+@[12:54:37] Muny-bot: Come on, you didn't really think it would be that easy did you?
+@[12:54:41] Muny-bot: OK it totally was that easy. Give me a break, it's just a prototype.
+@[12:54:44] Muny-bot: Here's your next clue ya animal: some_next_clue
+@[13:01:22] ayoitsjoe: !clue
+@[13:01:22] Muny-bot: Come on, you didn't really think it would be that easy did you?
+@[13:01:25] Muny-bot: OK it totally was that easy. Give me a break, it's just a prototype.
+@[13:01:28] Muny-bot: Here's your next clue ya animal: some_next_clue

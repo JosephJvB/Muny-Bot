@@ -2,7 +2,8 @@ const save_message_data = require('../save-msg-data')
 const { prefix } = require('../../no-secrets-dont-look-mum')
 const {
   kick,
-  list_args
+  list_args,
+  clue
 } = require('../commands')
 
 
@@ -28,6 +29,7 @@ module.exports = (message) => {
     case 'args':
     case 'list-args': return list_args(message, args)
     case 'kick': return kick(message)
+    case 'clue': return clue(message)
     default: return channel.send('Soz mate don\'t recognise that one, maybe it\'s your accent')
   }
 }
