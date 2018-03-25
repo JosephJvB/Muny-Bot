@@ -103,3 +103,19 @@ please tell me how many messages to delete
 @[15:55:00] ayoitsjoe: !cleanup -5
 @[15:55:09] ayoitsjoe: !cleanup 0
 @[15:56:26] ayoitsjoe: !cleanup 2
+@[16:03:09] ayoitsjoe: !delete 0
+@[16:03:09] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[16:03:12] ayoitsjoe: !cleanup 0
+@[16:03:20] ayoitsjoe: !cleanup 2.5
+@[16:04:22] ayoitsjoe: !cleanup 2.5
+@[16:07:18] ayoitsjoe: !cleanup 2.5
+@[16:07:33] ayoitsjoe: hasd
+@[16:07:33] ayoitsjoe: ashahsd
+@[16:07:34] ayoitsjoe: hasdhasd
+@[16:07:35] ayoitsjoe: ahsdahsd
+@[16:07:38] ayoitsjoe: !cleanup 2.5
+@[16:07:53] ayoitsjoe: asdnasd
+@[16:07:55] ayoitsjoe: !asfash
+@[16:07:55] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[16:07:56] ayoitsjoe: sjda
+@[16:08:01] ayoitsjoe: !cleanup 4.3
