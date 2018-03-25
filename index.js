@@ -3,10 +3,11 @@ const Discord = require('discord.js')
 const { bot_token } = require('./no-secrets-dont-look-mum')
 const { handle_message } = require('./src/events')
 
-const Client = new Discord.Client()
+const client = new Discord.Client()
 
 // EVENT HANDLERS
-Client.on('ready', () => console.log('ßotti ßoi is ready: eeeYUP'))
-Client.on('message', message => handle_message(message))
+client.on('ready', () => console.log('ßotti ßoi is ready: eeeYUP'))
 
-Client.login(bot_token)
+client.on('message', message => handle_message(message))
+
+client.login(bot_token)

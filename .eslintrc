@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "semi": [ 2, "never"],
+    "camelcase": [ 0, "always" ],
+    "consistent-return": [ 1, "always" ],
+    "comma-dangle": [ 1, "never" ]
+  }
+}

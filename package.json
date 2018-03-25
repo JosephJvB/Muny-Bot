@@ -1,11 +1,12 @@
 {
   "name": "discordbot",
   "version": "1.0.0",
-  "description": "learningDiscordjs",
+  "description": "learning discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index rs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "burn": "rm -rf node_modules && npm i"
   },
   "keywords": [
     "discord",
@@ -15,7 +16,7 @@
     "cool",
     "and",
     "smart",
-    "hehe"
+    "...nice"
   ],
   "author": "joe :)",
   "license": "ISC",
@@ -23,5 +24,12 @@
     "discord.js": "^11.3.2",
     "mz": "^2.7.0",
     "nodemon": "^1.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
