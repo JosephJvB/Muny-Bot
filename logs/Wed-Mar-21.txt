@@ -16,3 +16,17 @@ BIG SMILE, NEW FILE
 @[13:01:22] Muny-bot: Come on, you didn't really think it would be that easy did you?
 @[13:01:25] Muny-bot: OK it totally was that easy. Give me a break, it's just a prototype.
 @[13:01:28] Muny-bot: Here's your next clue ya animal: some_next_clue
+@[13:50:26] ayoitsjoe: !clue
+@[13:50:27] Muny-bot: Come on, you didn't really think it would be that easy did you?
+@[13:50:30] Muny-bot: OK it totally was that easy. Give me a break, it's just a prototype.
+@[13:50:33] Muny-bot: Here's your next clue ya animal: some_next_clue
+@[13:52:06] ayoitsjoe: !kick <@191392978588139530>
+@[13:52:07] Muny-bot: you wanna kick ayoitsjoe?
+@[13:52:11] ayoitsjoe: !kick
+@[13:52:12] Muny-bot: <@191392978588139530>, You must tag a user to kick them :)
+@[13:52:15] ayoitsjoe: !asdhahsd
+@[13:52:15] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[16:03:17] ayoitsjoe: !clue
+@[16:03:18] Muny-bot: Come on, you didn't really think it would be that easy did you?
+@[16:03:21] Muny-bot: OK it totally was that easy. Give me a break, it's just a prototype.
+@[16:03:24] Muny-bot: Here's your next clue ya animal: some_next_clue

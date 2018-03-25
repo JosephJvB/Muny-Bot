@@ -7,11 +7,22 @@ Hi this repo is where I'm going to be playing with discord.js to create a bot fo
 
 Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab and play with the bot. Muny-bot is still young and impressionable, so I won't hesitate to ban you if I think you're going to lead Muny-bot astray.
 
+## COMMANDS: //
+
+  - !kick (username@mention)
+  - !cleanup (number)
+  - !args aka !list-args (arguments)
+  - !guide
+
 TODOS: //
+* be able to restart my server from discord? console.log(rs)? would that work?
 * make a check so users cant excecute commands in Direct Messages
 * delete message feature
+  -> got some basic deletes happening.
+  -> Doesnt remove messages from my logs. of course it doesnt :)
 * cooldowns
 * command aliases
+* info section that describes commands
   -> easy to handle with my structure it seems...
 
 FILE STRUCTURE: //

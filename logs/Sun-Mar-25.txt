@@ -1,0 +1,105 @@
+BIG SMILE, NEW FILE
+
+@[14:37:37] ayoitsjoe: !guide
+@[14:37:37] Muny-bot: https://discordjs.guide/#/
+@[14:51:30] ayoitsjoe: !delete
+@[14:51:30] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[14:52:16] ayoitsjoe: !delete
+@[14:52:17] Muny-bot: CHANNEL OBJ: <#337781782277652480>
+@[14:52:51] ayoitsjoe: !delete
+@[14:52:52] Muny-bot: CHANNEL OBJ: <#337781782277652480>
+@[14:53:30] ayoitsjoe: !delete
+@[14:54:01] ayoitsjoe: !delete
+@[14:57:25] ayoitsjoe: !delete 2
+@[15:00:53] ayoitsjoe: !delete
+@[15:00:54] Muny-bot: yoikes, something went wrong
+@[15:02:10] ayoitsjoe: !delete 2
+@[15:02:46] ayoitsjoe: !delete
+@[15:02:46] Muny-bot: yoikes, I need more direction in my life. Please tell me how many messages to delete
+@[15:03:26] ayoitsjoe: !delete 1
+@[15:03:48] ayoitsjoe: !delete
+@[15:03:48] Muny-bot: yoikes, I need more direction in my life.
+Please tell me how many messages to delete
+@[15:11:49] ayoitsjoe: !delete 2
+@[15:12:07] ayoitsjoe: !delete 2
+@[15:12:33] ayoitsjoe: !delete 2
+@[15:13:42] ayoitsjoe: !delete u
+@[15:13:43] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:14:17] ayoitsjoe: !delete 3
+@[15:14:23] ayoitsjoe: !delete h
+@[15:14:24] Muny-bot: mayonnaise is not an instrument, Patrick
+@[15:15:29] ayoitsjoe: !delete u
+@[15:15:29] Muny-bot: mayonnaise is not an instrument, Patrick.
+ And undefined is not a number
+@[15:16:29] ayoitsjoe: !delete jj
+@[15:16:29] Muny-bot: mayonnaise is not an instrument, Patrick.
+And jj is not a number
+@[15:16:58] ayoitsjoe: !delete
+@[15:16:58] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:17:06] ayoitsjoe: !delete yourself
+@[15:17:06] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:18:09] ayoitsjoe: !delete
+@[15:18:09] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:18:13] ayoitsjoe: !delete jsjs
+@[15:18:13] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:18:42] ayoitsjoe: !delete hsha
+@[15:18:42] Muny-bot: mayonnaise is not an instrument, Patrick.
+And 'hsha' is not a number
+@[15:22:20] ayoitsjoe: !delete 2
+@[15:27:21] ayoitsjoe: !delete 2
+@[15:27:28] ayoitsjoe: !delete 3
+@[15:29:59] ayoitsjoe: !delete
+@[15:30:00] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:30:03] ayoitsjoe: !delete
+@[15:30:03] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:30:38] ayoitsjoe: !delete
+@[15:30:39] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:31:03] ayoitsjoe: !delete
+@[15:31:04] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:31:09] ayoitsjoe: !delete
+@[15:31:09] Muny-bot: I need more direction in my life,
+please tell me how many messages to delete
+@[15:34:52] ayoitsjoe: !cleanup 10
+@[15:42:15] ayoitsjoe: !rs
+@[15:42:26] ayoitsjoe: !rs
+@[15:46:42] ayoitsjoe: !delete 1000
+@[15:46:42] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:47:16] ayoitsjoe: !delete 1000
+@[15:47:16] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:47:57] ayoitsjoe: !delete 0
+@[15:47:58] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:48:04] ayoitsjoe: rs
+@[15:48:11] ayoitsjoe: !delete 0
+@[15:48:12] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:48:35] ayoitsjoe: !delete 1
+@[15:48:35] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:48:42] ayoitsjoe: !delete 1
+@[15:48:42] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:48:53] ayoitsjoe: !delete 2
+@[15:48:54] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:49:16] ayoitsjoe: !delete 1
+@[15:49:17] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:49:43] ayoitsjoe: !delete
+@[15:49:43] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:49:57] ayoitsjoe: !cleanup 1
+@[15:50:02] ayoitsjoe: !cleanup 0
+@[15:51:30] ayoitsjoe: !cleanup 2
+@[15:51:35] ayoitsjoe: !cleanup 10
+@[15:54:20] ayoitsjoe: !delete -1
+@[15:54:21] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[15:54:35] ayoitsjoe: !cleanup -1
+@[15:54:36] Muny-bot: I'm only willing to delete messages if you give me a number greater than zero here.
+@[15:54:49] ayoitsjoe: !cleanup -2
+@[15:54:50] Muny-bot: I'm only willing to delete messages if you give me a number greater than zero here.
+@[15:55:00] ayoitsjoe: !cleanup -5
+@[15:55:09] ayoitsjoe: !cleanup 0
+@[15:56:26] ayoitsjoe: !cleanup 2
