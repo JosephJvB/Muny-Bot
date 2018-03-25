@@ -1,3 +1,15 @@
+`message.channel.type` = text, dm or voice? but you cant enter text in a voice channel..
+
+"start": "pm2 start ./index.js --name 'Muny-bot' --watch",
+"stop": "pm2 delete all"
+
+```
+<message>.channel.send('My message to react to.').then(sentMessage => {
+    sentMessage.react('👍');
+    sentMessage.react('<emoji id>');
+});
+```
+
 `message.author.displayAvatarURL`
 `message.mentions.users.map(user => user.displayAvatarURL)`
 `message.reply`

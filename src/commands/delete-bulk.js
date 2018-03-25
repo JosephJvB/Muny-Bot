@@ -1,7 +1,7 @@
 module.exports = (message, args) => {
 
   const { channel } = message
-  let amount = args[0]
+  let amount = args.shift()
   
   // handle errors
   if(!amount) {
@@ -23,5 +23,6 @@ module.exports = (message, args) => {
       : amount
 
   // 2nd arg "true" prevents error if user tries to delete messages older than 2 weeks
-  channel.bulkDelete(amount, true)
+  // + 1 to delete the cleanup command + the amount
+  channel.bulkDelete(amount + 1, true)
 }

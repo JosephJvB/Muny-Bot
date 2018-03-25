@@ -8,7 +8,6 @@ const {
   list_args
 } = require('../commands')
 
-
 module.exports = (message) => {
   // save every message
   save_message_data(message)
@@ -20,6 +19,9 @@ module.exports = (message) => {
 
   // respond only to USER messages that start with '!'
   if (!content.startsWith(prefix) || author.bot) return
+
+  // exit if command origin is direct messages
+  if(channel.type === 'dm') return
 
   // assigning command and arguments from message content.
   const args = content.slice(prefix.length).split(/ +/)

@@ -1,11 +1,12 @@
 {
   "name": "discordbot",
   "version": "1.0.0",
-  "description": "learningDiscordjs",
+  "description": "learning discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index rs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "burn": "rm -rf node_modules && npm i"
   },
   "keywords": [
     "discord",
@@ -15,7 +16,7 @@
     "cool",
     "and",
     "smart",
-    "hehe"
+    "...nice"
   ],
   "author": "joe :)",
   "license": "ISC",

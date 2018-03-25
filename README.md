@@ -9,21 +9,27 @@ Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab a
 
 ## COMMANDS: //
 
-  - !kick (username@mention)
-  - !cleanup (number)
-  - !args aka !list-args (arguments)
+  - !kick + (username@mention)
+  - !cleanup + (number)
+  - !args OR !list-args + (arguments)
   - !guide
 
 TODOS: //
-* be able to restart my server from discord? console.log(rs)? would that work?
-* make a check so users cant excecute commands in Direct Messages
-* delete message feature
-  -> got some basic deletes happening.
-  -> Doesnt remove messages from my logs. of course it doesnt :)
+
+* `https://discordjs.guide/#/popular-topics/miscellaneous-examples`
+  -> keen-as on a youtube player in the bot
+
+* emojies in bot replies, and bot reacting to messages with emojies 💯
+  -> `https://emojipedia.org/search/?q=100`
+  -> create a custom emoji library to export from? eg: `import { map, hunnid } from './emojies`
+
+* be able to restart my server from discord. 
+  -> `https://discordjs.guide/#/improving-dev-environment/pm2`
+  -> found a working solution but it's bit gross..
+
 * cooldowns
-* command aliases
-* info section that describes commands
-  -> easy to handle with my structure it seems...
+
+* info/help command
 
 FILE STRUCTURE: //
 

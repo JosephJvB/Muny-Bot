@@ -119,3 +119,36 @@ please tell me how many messages to delete
 @[16:07:55] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
 @[16:07:56] ayoitsjoe: sjda
 @[16:08:01] ayoitsjoe: !cleanup 4.3
+
+ --- UNIDENTIFIED EVENT?? ---
+
+@[21:15:34] Muny-bot: https://discordjs.guide/#/ 🗺
+@[21:16:37] ayoitsjoe: !asdhasd
+@[21:16:37] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[21:21:50] ayoitsjoe: !rs
+@[21:21:51] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[21:22:17] ayoitsjoe: a!ashd
+@[21:22:17] ayoitsjoe: a!ashd
+@[21:22:19] ayoitsjoe: !ashd
+@[21:22:19] ayoitsjoe: !ashd
+@[21:22:19] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[21:22:19] Muny-bot: z mate don't recognise that one, maybe it's your accent
+@[21:22:19] Muny-bot: z mate don't recognise that one, maybe it's your accentnt
+@[21:23:16] ayoitsjoe: sup
+@[21:23:18] ayoitsjoe: !guide
+@[21:23:18] Muny-bot: https://discordjs.guide/#/ 🗺
+@[21:23:22] ayoitsjoe: !asdahd
+@[21:23:23] Muny-bot: Sozzzzz mate don't recognise that one, maybe it's your accent
+@[21:24:45] ayoitsjoe: !asdh
+@[21:24:45] Muny-bot: S mate don't recognise that one, maybe it's your accent
+@[21:24:54] ayoitsjoe: !hi
+@[21:24:54] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[21:26:00] ayoitsjoe: !shdh
+@[21:26:00] Muny-bot: hi mate don't recognise that one, maybe it's your accent
+@[21:28:14] ayoitsjoe: oh no
+@[21:28:21] ayoitsjoe: !rs
+@[21:28:22] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[21:28:30] ayoitsjoe: I goofed my logs??
+@[21:28:32] ayoitsjoe: dont know how
+@[21:28:39] ayoitsjoe: something in pm2
+@[21:28:43] ayoitsjoe: is my guess
