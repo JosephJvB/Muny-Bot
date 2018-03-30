@@ -18,9 +18,9 @@ module.exports = (message, args) => {
   
       if(err) return reject(console.error(err))
   
-      const result = res.data.items
+      const results = res.data.items
     
-      resolve(result[0].id.videoId)
+      resolve(results)
     })
   })
 
