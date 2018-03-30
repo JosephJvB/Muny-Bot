@@ -1,0 +1,23 @@
+BIG SMILE, NEW FILE
+
+@[16:12:34] ayoitsjoe: !guide
+@[16:12:35] Muny-bot: https://discordjs.guide/#/ 🗺
+@[17:17:28] ayoitsjoe: !play
+@[17:18:46] ayoitsjoe: !play
+@[17:18:46] Muny-bot: pls join a voice channel first
+@[17:19:04] ayoitsjoe: !play
+@[17:19:04] Muny-bot: <@191392978588139530>, pls join a voice channel first
+@[17:19:37] ayoitsjoe: !play
+@[17:19:56] ayoitsjoe: !guide
+@[17:19:57] Muny-bot: https://discordjs.guide/#/ 🗺
+@[17:21:01] ayoitsjoe: !play
+@[17:21:34] ayoitsjoe: !play
+@[17:23:36] ayoitsjoe: !play
+@[17:24:55] ayoitsjoe: !play
+@[17:47:23] ayoitsjoe: !play
+@[17:49:17] ayoitsjoe: !play
+@[17:49:38] ayoitsjoe: !loop
+@[17:49:39] Muny-bot: Soz mate don't recognise that one, maybe it's your accent
+@[17:50:35] ayoitsjoe: !play
+@[17:51:00] ayoitsjoe: !play
+@[17:51:01] Muny-bot: <@191392978588139530>, pls join a voice channel first

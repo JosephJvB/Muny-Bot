@@ -5,7 +5,9 @@ const {
   delete_bulk,
   guide,
   kick,
-  list_args
+  list_args,
+  play_music,
+  ty_search
 } = require('../commands')
 
 module.exports = (message) => {
@@ -24,7 +26,7 @@ module.exports = (message) => {
   if(channel.type === 'dm') return
 
   // assigning command and arguments from message content.
-  const args = content.slice(prefix.length).split(/ +/)
+  const args = content.slice(prefix.length).split(/\s+/g)
   const command = args.shift().toLowerCase()
 
   // handle command cases
@@ -36,6 +38,8 @@ module.exports = (message) => {
     case 'cleanup': return delete_bulk(message, args)
     case 'guide': return guide(message)
     case 'kick': return kick(message)
+    case 'yt': return yt_search(message, args)
+    case 'play': return play_music(message, args)
     default: return channel.send('Soz mate don\'t recognise that one, maybe it\'s your accent')
   }
 }
