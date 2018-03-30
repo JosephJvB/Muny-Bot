@@ -1,4 +1,4 @@
-const save_message_data = require('../save-msg-data')
+const save_message_data = require('../util/save-msg-data')
 const { prefix } = require('../../no-secrets-dont-look-mum')
 const {
   clue,
@@ -6,8 +6,7 @@ const {
   guide,
   kick,
   list_args,
-  play_music,
-  ty_search
+  play_music
 } = require('../commands')
 
 module.exports = (message) => {
@@ -38,7 +37,6 @@ module.exports = (message) => {
     case 'cleanup': return delete_bulk(message, args)
     case 'guide': return guide(message)
     case 'kick': return kick(message)
-    case 'yt': return yt_search(message, args)
     case 'play': return play_music(message, args)
     default: return channel.send('Soz mate don\'t recognise that one, maybe it\'s your accent')
   }
