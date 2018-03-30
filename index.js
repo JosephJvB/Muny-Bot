@@ -10,4 +10,7 @@ client.on('ready', () => console.log('ßotti ßoi is ready: eeeYUP'))
 
 client.on('message', message => handle_message(message))
 
+// ERROR HANDLER
+process.on('unhandledRejection', error => console.error(`Uncaught Promise Rejection:\n${error}`))
+
 client.login(bot_token)

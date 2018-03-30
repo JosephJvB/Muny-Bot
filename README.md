@@ -20,10 +20,13 @@ Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab a
 
 ### TODOS: //
 
-* make a slide into DM's command that makes the bot DM you something saucy ;)
+* info/help command
 
 * `https://discordjs.guide/#/popular-topics/miscellaneous-examples`
   -> keen-as on a youtube player in the bot
+  -> seems like ytdl-core doesnt handle the youtube search so I might have to custom  that:       https://developers.google.com/youtube/v3/code_samples/javascript#search-by-keyword
+
+* make a slide into DM's command that makes the bot DM you something saucy ;)
 
 * emojies in bot replies, and bot reacting to messages with emojies 💯
   -> `https://emojipedia.org/search/?q=100`
@@ -31,7 +34,6 @@ Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab a
 
 * cooldowns
 
-* info/help command
 
 ---
 
@@ -41,10 +43,9 @@ Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab a
   -> A top level index. Contains `Client.on(*event*)'s`
 
   -> imports bot modules (event handlers) to deal with the 'event' cases.
-  - eg: { handle_message, handle_join ... } = require('./bot')
+  - eg: { handle_message, handle_join ... } = require('./src/events')
 
-  -> I have already made a command & event handling structure. I've only just read up to the part in the guide where they describe it, and as it stands I'm happy with my version. We'll see if there are issues down the track...
-    -> Right so theirs is nice since all their commands are objects, it means when a user calls !help on a command, they can list the object to describe it to the user it seems.
+    -> Right so their event/command structure is nice since all their commands are objects, it means when a user calls !help on a command, they can list the object to describe it to the user it seems.
     Just means my !help command is gonna be a bit beefy :)
 
 ---
