@@ -1,47 +1,48 @@
 const ytdl = require('ytdl-core')
+
 const yt_search = require('../util/yt-search')
 
-const messageFilter = (msg) => {
-  const hasNumber = findNumberInString(msg.content)
-  return hasNumber
-}
+/*
+  THIS FUNCTIONS JOB:
 
-const findNumberInString = (str) => {
-  const arr = str.split('')
-  return arr.find(char => Number(char) > 0 && Number(char < 4))
-}
+    1: Call youtube search function with arguments after !play command.
+    2: Take result_id from yt_search and create a stream of youtube video.
+
+    CALLED BY: !play command -> ../events/message.js
+*/
 
 module.exports = (message, args) => {
-  const { member: { voiceChannel }, channel } = message
 
+  const { member: { voiceChannel }, channel, author } = message
+  
+  // exit if user is not in a voiceChannel
   if(!voiceChannel) return message.reply('pls join a voice channel first')
+  
+    // initiate youtube api search & handle selection.
+    return yt_search(message, args)
+      .catch(err => console.error(`SEARCH_ERROR: ${err}`))
+      .then(result_id => {
 
-  return yt_search(message, args)
-    .catch(err => console.error(err))
-    .then(searchResults => {
+        // join the users voice_channel
+        voiceChannel.join()
+          .catch(err => console.error(`JOIN_ERROR: ${err}`))
+          .then(connection => {
 
-      const choices = searchResults.map((res, i) => `\n${i + 1}. ${res.snippet.title}`)
+            // stream audio using id from users selection
+            const stream = ytdl(`https://www.youtube.com/watch?v=${result_id}`, { filter: 'audioonly', quality: 'highestaudio' })
 
-      channel.send(choices.join('\n'))
-        .then(() =>{
-          channel.awaitMessages(messageFilter, {  max: 1, time: 6000, errors: ['time']})
-          .then(answer => {
-            const yaNum = findNumberInString(answer.first().content)
+            const dispatcher = connection.playStream(stream)
 
-            const videoId = searchResults[yaNum - 1].id.videoId
+            dispatcher.on('end', () => {
 
-            voiceChannel.join()
-              .then(connection => {
-                const stream = ytdl(`https://www.youtube.com/watch?v=${videoId}`, { filter: 'audioonly' })
-                const dispatcher = connection.playStream(stream)
-                dispatcher.on('end', () => {
-                  channel.send('cheers for the jams')
-                  voiceChannel.leave()
-                })
-              })
+              channel.send('cheers for the jams')
+
+              voiceChannel.leave()
+
+            })
+
           })
-          .catch(err => console.log(err))
-        })
-      })
 
-  }
+      })
+  
+}

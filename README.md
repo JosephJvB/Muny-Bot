@@ -24,7 +24,10 @@ Oh by the way I'm the only one that can run the server. I didn't think that thro
 
 * info/help command
 
-* YOUTUBE PLAYER IS LIVE: Big refactor to be done, if someone fell out of that tree they'd get a hurt real bad.
+* YOUTUBE PLAYER (WE LIVE THO):
+  - handle stop
+  - handle playlists / queues
+  - handle skip
 
 * make a slide into DM's command that makes the bot DM you something saucy ;)
 
