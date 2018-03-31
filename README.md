@@ -7,6 +7,8 @@ Hi this repo is where I'm going to be playing with discord.js to create a bot fo
 
 Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab and play with the bot. Muny-bot is still young and impressionable, so I won't hesitate to ban you if I think you're going to lead Muny-bot astray.
 
+Oh by the way I'm the only one that can run the server. I didn't think that through. Message me on discord. I'm happy to chat about the bot.
+
 ---
 
 ### COMMANDS: //
@@ -22,9 +24,10 @@ Here is the [invitation](https://discord.gg/QBbjjF) link to join Joe's-Bot-Lab a
 
 * info/help command
 
-* `https://discordjs.guide/#/popular-topics/miscellaneous-examples`
-  -> keen-as on a youtube player in the bot
-  -> seems like ytdl-core doesnt handle the youtube search so I might have to custom  that:       https://developers.google.com/youtube/v3/code_samples/javascript#search-by-keyword
+* YOUTUBE PLAYER (WE LIVE THO):
+  - handle stop
+  - handle playlists / queues
+  - handle skip
 
 * make a slide into DM's command that makes the bot DM you something saucy ;)
 
