@@ -1,13 +1,12 @@
 module.exports = (message, args) => {
-
   const { channel } = message
   let amount = args.shift()
-  
+
   // handle errors
-  if(!amount) {
+  if (!amount) {
     return channel.send('I need more direction in my life,\nplease tell me how many messages to delete')
   }
-  if(isNaN(amount)) {
+  if (isNaN(amount)) {
     return channel.send(`Mayonnaise is not an instrument, Patrick.\nAnd '${amount}' is not a number`)
   }
 

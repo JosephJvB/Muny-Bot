@@ -162,3 +162,10 @@ BIG SMILE, NEW FILE
 
 3. Leon Bridges - Coming Home (Video)
 @[15:09:37] ayoitsjoe: 3
+@[20:40:13] ayoitsjoe: !docs
+@[20:40:14] Muny-bot: https://discord.js.org/#/docs/main/stable/general/welcome
+@[20:40:48] ayoitsjoe: 🤔
+@[20:41:27] ayoitsjoe: !docs
+@[20:41:28] Muny-bot: https://discord.js.org/#/docs/main/stable/general/welcome
+@[20:42:05] ayoitsjoe: !docs
+@[20:42:05] Muny-bot: https://discord.js.org/#/docs/main/stable/general/welcome

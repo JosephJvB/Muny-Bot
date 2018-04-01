@@ -13,6 +13,8 @@ Oh by the way I'm the only one that can run the server. I didn't think that thro
 
 ### COMMANDS: //
 
+  - !docs
+  - !play + (song / artist from youtube)
   - !kick + (username@mention)
   - !cleanup + (number)
   - !args OR !list-args + (arguments)
