@@ -1,4 +1,4 @@
-module.exports = message => {
+module.exports = (message) => {
   const { channel } = message
 
   channel.send('Come on, you didn\'t really think it would be that easy did you?')

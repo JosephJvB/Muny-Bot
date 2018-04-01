@@ -7,16 +7,10 @@ module.exports = ({ author: { username }, content, createdAt }) => {
   const nextMsg = `@[${time[4]}] ${username}: ${content}`
 
   fs.readFile(`${__dirname}/../../logs/${title}.txt`, 'utf8')
-    .catch(err => console.log(err))
-    .then(msgData => {
-      // if no msg data, it's the start of a new file
-      // if data exists, then add the new message at the end
-      !msgData
-        ? fs.writeFile(`${__dirname}/../../logs/${title}.txt`, 'BIG SMILE, NEW FILE' + '\n' + '\n' + nextMsg, 'utf8')
-        : fs.writeFile(`${__dirname}/../../logs/${title}.txt`, msgData + '\n' + nextMsg, 'utf8')
-      // \n to create a new line between messages
-    })
-}
+    // if readFile succeeds, add new message to file data
+    .then(msgData =>
+      fs.writeFile(`${__dirname}/../../logs/${title}.txt`, `${msgData}\n${nextMsg}`, 'utf8'))
 
-// i tried to do the writeFile for a new file in the .catch()
-// but both .catch() && the .then() are being called?
+    // if no file exists: catch error and create new file
+    .catch(() => fs.writeFile(`${__dirname}/../../logs/${title}.txt`, `BIG SMILE NEW FILE\n\n${nextMsg}`, 'utf8'))
+}

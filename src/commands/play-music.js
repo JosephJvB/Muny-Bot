@@ -12,7 +12,7 @@ const yt_search = require('../util/yt-search')
 */
 
 module.exports = (message, args) => {
-  const { member: { voiceChannel }, channel, author } = message
+  const { member: { voiceChannel }, channel } = message
 
   // exit if user is not in a voiceChannel
   if (!voiceChannel) return message.reply('pls join a voice channel first')
@@ -20,11 +20,11 @@ module.exports = (message, args) => {
   // initiate youtube api search & handle selection.
   return yt_search(message, args)
     .catch(err => console.error(`SEARCH_ERROR: ${err}`))
-    .then(result_id => {
+    .then((result_id) => {
       // join the users voice_channel
       voiceChannel.join()
         .catch(err => console.error(`JOIN_ERROR: ${err}`))
-        .then(connection => {
+        .then((connection) => {
           // stream audio using id from users selection
           const stream = ytdl(`https://www.youtube.com/watch?v=${result_id}`, { filter: 'audioonly', quality: 'highestaudio' })
 

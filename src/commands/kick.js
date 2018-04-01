@@ -1,4 +1,4 @@
-module.exports = message => {
+module.exports = (message) => {
   const {
     channel,
     mentions: { users }
