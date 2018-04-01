@@ -3,6 +3,7 @@ const { prefix } = require('../../no-secrets-dont-look-mum')
 const {
   clue,
   delete_bulk,
+  docs,
   guide,
   kick,
   list_args,
@@ -22,7 +23,7 @@ module.exports = (message) => {
   if (!content.startsWith(prefix) || author.bot) return
 
   // exit if command origin is direct messages
-  if(channel.type === 'dm') return
+  if (channel.type === 'dm') return
 
   // assigning command and arguments from message content.
   const args = content.slice(prefix.length).split(/\s+/g)
@@ -35,6 +36,7 @@ module.exports = (message) => {
     case 'list-args': return list_args(message, args)
     case 'clue': return clue(message)
     case 'cleanup': return delete_bulk(message, args)
+    case 'docs': return docs(message)
     case 'guide': return guide(message)
     case 'kick': return kick(message)
     case 'play': return play_music(message, args)

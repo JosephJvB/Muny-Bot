@@ -9,7 +9,6 @@ const is_between = (int, min, max) => {
   return int >= min && int <= max
 }
 
-
 module.exports = {
   find_number_in_string,
   is_between

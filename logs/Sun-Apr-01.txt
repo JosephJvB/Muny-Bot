@@ -1,0 +1,8 @@
+BIG SMILE, NEW FILE
+
+@[09:23:09] ayoitsjoe: !guide
+@[09:23:10] Muny-bot: https://discordjs.guide/#/ 🗺
+@[09:23:21] ayoitsjoe: !docs
+@[09:23:22] Muny-bot: https://discord.js.org/#/docs/main/stable/general/welcome 🤔
+@[09:23:33] ayoitsjoe: !args joe is smart
+@[09:23:34] Muny-bot: Your args, m'lady: joe, is, smart
