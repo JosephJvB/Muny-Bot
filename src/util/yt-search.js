@@ -3,7 +3,7 @@ const youtube = google.youtube('v3')
 
 const { yt_api_key } = require('../../no-secrets-dont-look-mum.json')
 const message_filter = require('./filter-messages')
-const { find_number_in_string } = require('./basic-tools')
+const { first_number_in_string } = require('./basic-tools')
 
 /*
   THIS FUNCTIONS JOB:
@@ -47,7 +47,7 @@ module.exports = (message, args) => {
             .catch(err => reject(console.error(`AWAIT_MSG_ERROR: ${err}`)))
             .then(answer => {
               // match the first number between 1-3 in user response to search results
-              const songIdx = find_number_in_string(answer.first().content)
+              const songIdx = first_number_in_string(answer.first().content)
 
               // send selected song ID back to player
               resolve(results[songIdx - 1].id.videoId)

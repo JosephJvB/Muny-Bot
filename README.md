@@ -19,17 +19,22 @@ Oh by the way I'm the only one that can run the server. I didn't think that thro
   - !cleanup + (number)
   - !args OR !list-args + (arguments)
   - !guide
+  - !gfycat (gfycat-username)
 
 ---
 
 ### TODOS: //
+
+* gfycat
+  - return only x number of gifs
+  - do embed
 
 * info/help command
 
 * YOUTUBE PLAYER (WE LIVE THO):
   - handle stop
   - handle playlists / queues
-  - handle skip
+  - handle skips
 
 * make a slide into DM's command that makes the bot DM you something saucy ;)
 

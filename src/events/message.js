@@ -2,6 +2,7 @@ const save_message_data = require('../util/save-msg-data')
 const { prefix } = require('../../no-secrets-dont-look-mum')
 const {
   clue,
+  gfycat,
   delete_bulk,
   docs,
   guide,
@@ -40,6 +41,7 @@ module.exports = (message) => {
     case 'guide': return guide(message)
     case 'kick': return kick(message)
     case 'play': return play_music(message, args)
+    case 'gfycat': return gfycat(message, args)
     default: return channel.send('Soz mate don\'t recognise that one, maybe it\'s your accent')
   }
 }
