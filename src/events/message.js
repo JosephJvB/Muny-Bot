@@ -8,6 +8,7 @@ const {
   guide,
   kick,
   list_args,
+  nightmare,
   play_music
 } = require('../commands')
 
@@ -42,6 +43,7 @@ module.exports = (message) => {
     case 'kick': return kick(message)
     case 'play': return play_music(message, args)
     case 'gfycat': return gfycat(message, args)
+    case 'nightmare': return nightmare(message, args)
     default: return channel.send('Soz mate don\'t recognise that one, maybe it\'s your accent')
   }
 }

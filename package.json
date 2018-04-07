@@ -22,10 +22,12 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "fast-html-parser": "^1.0.1",
     "ffmpeg": "0.0.4",
     "gfycat-sdk": "^1.4.13",
     "googleapis": "^28.0.1",
     "mz": "^2.7.0",
+    "nightmare": "^3.0.1",
     "nodemon": "^1.17.2",
     "opusscript": "0.0.6",
     "ytdl-core": "^0.20.2"

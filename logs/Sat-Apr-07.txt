@@ -353,3 +353,87 @@ BIG SMILE NEW FILE
 @[02:18:23] Muny-bot: No can do, buckeroo.
 @[02:18:36] ayoitsjoe: !gfycat danoxyo 0
 @[02:18:37] Muny-bot: No can do, buckeroo.
+@[11:02:53] ayoitsjoe: !nightmare danoxyo
+@[11:03:55] ayoitsjoe: √
+@[11:03:57] ayoitsjoe: !nightmare danoxyo
+@[11:04:18] ayoitsjoe: !nightmare danoxyo
+@[11:04:29] ayoitsjoe: !nightmare danoxyo
+@[11:04:42] ayoitsjoe: !nightmare danoxyo
+@[11:06:09] ayoitsjoe: !nightmare danoxyo
+@[11:06:43] ayoitsjoe: !nightmare danoxyo
+@[11:08:05] ayoitsjoe: !nightmare danoxyo
+@[11:08:56] ayoitsjoe: !nightmare danoxyo
+@[11:11:43] ayoitsjoe: !nightmare danoxyo
+@[11:12:00] ayoitsjoe: !nightmare danoxyo
+@[11:12:55] ayoitsjoe: !nightmare danoxyo
+@[11:19:04] ayoitsjoe: !nightmare danoxyo
+@[11:19:45] ayoitsjoe: !nightmare danoxyo
+@[11:20:14] ayoitsjoe: !nightmare danoxyo
+@[11:20:56] ayoitsjoe: !nightmare danoxyo
+@[11:21:17] ayoitsjoe: !nightmare danoxyo
+@[11:21:33] Jeff from the overwatch team: nightmare?
+@[11:21:57] ayoitsjoe: figuring out a library called  nightmare js
+@[11:22:06] Jeff from the overwatch team: ah
+@[11:22:23] ayoitsjoe: wanna have a way to get all gfycat gifs from a user
+@[11:22:40] Jeff from the overwatch team: thats pretty cool
+@[11:23:10] ayoitsjoe: Cheers, I found a JS gfycat library but it only returns the users feed which is limited to 10 gifs
+@[11:23:23] ayoitsjoe: so Im gonna work a way with nightmare to get them all haha
+@[11:23:34] ayoitsjoe: !gfycat gfylucht
+@[11:23:35] Muny-bot: Fetching gfylucht's latest 10 gifs...
+@[11:23:36] Muny-bot: **[Hanamura] Crossing the gap (6,9 seconds)**: __gfycat.com/DefenselessFloweryBittern__
+@[11:23:37] Muny-bot: **Rip lucio**: __gfycat.com/BouncyMintyBufflehead__
+@[11:23:37] Muny-bot: **Brigitte is a fair and balanced hero**: __gfycat.com/GoldenNewJabiru__
+@[11:23:38] Muny-bot: **Hanamura gap cross**: __gfycat.com/UnnaturalArcticAnnashummingbird__
+@[11:23:42] Muny-bot: **Ilios lighthouse fancy prototype**: __gfycat.com/FavoriteUnitedBagworm__
+@[11:23:42] Muny-bot: **[Kings Row] First Defender Spawn to First Point (5.6 seconds)**: __gfycat.com/GreatUnpleasantGander__
+@[11:23:43] Muny-bot: **[Eichenwalde] Speedrun First Defender Spawn to First Point in 5.233 seconds**: __gfycat.com/BriskWindingBirdofparadise__
+@[11:23:43] Muny-bot: **Wat**: __gfycat.com/SpeedyWarmFruitfly__
+@[11:23:44] Muny-bot: **[Volskaya Industries] First Attacker Spawn to First Point (6.7 seconds)**: __gfycat.com/SelfishSaneAmericanwigeon__
+@[11:23:49] Muny-bot: **[Junkertown] 2nd attacker spawn to 2nd checkpoint (7.7 seconds)**: __gfycat.com/InsignificantWindingArrowworm__
+@[11:24:03] Jeff from the overwatch team: lol
+@[11:25:32] ayoitsjoe: EmCo had a good idea that I should clean up the presentation too haha
+@[11:25:38] ayoitsjoe: Try do an embed
+@[11:26:06] Jeff from the overwatch team: yeah, i was gonna mention that
+@[11:26:33] EmCo: https://cdn.discordapp.com/attachments/340469561784795147/431957762151415828/unknown.png
+@[11:31:51] ayoitsjoe: !nightmare emcoow
+@[11:32:42] Jeff from the overwatch team: if there was some good python libraries for gfycat i'd mess around with some stuff, but there isnt
+@[11:34:17] ayoitsjoe: well the JS one wasnt great, so Im gonna try do some headless browser stuff to get the gfycat links myself
+@[11:34:37] ayoitsjoe: !nightmare emcoow
+@[11:35:03] ayoitsjoe: `[href^="/%40${gfyUser}/detail"]`
+@[11:35:17] ayoitsjoe: !nightmare emcoow
+@[11:36:00] ayoitsjoe: !nightmare emcoow
+@[11:36:09] EmCo: !gfycat ass
+@[11:36:09] Muny-bot: Fetching ass's latest 10 gifs...
+@[11:37:47] ayoitsjoe: yeah nice
+@[11:37:54] ayoitsjoe: LOL
+@[11:37:59] ayoitsjoe: !nightmare emcoow
+@[11:39:33] ayoitsjoe: !nightmare emcoow
+@[11:39:58] ayoitsjoe: !nightmare emcoow
+@[11:40:19] ayoitsjoe: !nightmare emcoow
+@[11:40:30] ayoitsjoe: !nightmare emcoow
+@[11:40:58] ayoitsjoe: !nightmare emcoow
+@[11:45:12] ayoitsjoe: !nightmare emcoow
+@[11:45:29] ayoitsjoe: !nightmare emcoow
+@[11:46:04] ayoitsjoe: !nightmare emcoow
+@[11:46:37] ayoitsjoe: !nightmare emcoow
+@[11:48:32] ayoitsjoe: !nightmare emcoow
+@[11:50:43] ayoitsjoe: !nightmare emcoow
+@[11:50:59] ayoitsjoe: !nightmare emcoow
+@[11:51:15] ayoitsjoe: !nightmare emcoow
+@[11:53:59] ayoitsjoe: /%40gfylucht/detail/DefenselessFloweryBittern
+@[11:54:21] ayoitsjoe: !nightmare gfylucht
+@[11:55:19] ayoitsjoe: !nightmare gfylucht
+@[11:55:37] ayoitsjoe: !nightmare gfylucht
+@[12:02:42] ayoitsjoe: !nightmare emcoow
+@[12:03:16] ayoitsjoe: !nightmare gfylucht
+@[12:06:41] ayoitsjoe: !nightmare emcoow
+@[12:07:11] ayoitsjoe: !nightmare emcoow
+@[12:07:53] ayoitsjoe: !nightmare emcoow
+@[12:12:20] ayoitsjoe: !nightmare emcoow
+@[12:13:58] ayoitsjoe: jQuery111207554034338048949
+@[12:14:07] ayoitsjoe: !nightmare emcoow
+@[12:16:30] ayoitsjoe: !nightmare emcoow
+@[12:17:07] ayoitsjoe: !nightmare emcoow
+@[12:17:50] ayoitsjoe: !nightmare emcoow
+@[12:18:36] ayoitsjoe: !nightmare emcoow
+@[12:19:05] ayoitsjoe: !nightmare emcoow

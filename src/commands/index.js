@@ -5,6 +5,7 @@ const docs = require('./docs')
 const guide = require('./guide')
 const kick = require('./kick')
 const list_args = require('./list-args')
+const nightmare = require('./nightmare')
 const play_music = require('./play-music')
 
 module.exports = {
@@ -15,5 +16,6 @@ module.exports = {
   guide,
   kick,
   list_args,
+  nightmare,
   play_music
 }
