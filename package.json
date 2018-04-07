@@ -4,7 +4,7 @@
   "description": "learning discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index rs",
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "burn": "rm -rf node_modules && npm i"
   },
@@ -21,6 +21,7 @@
   "author": "joe :)",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "discord.js": "^11.3.2",
     "ffmpeg": "0.0.4",
     "gfycat-sdk": "^1.4.13",

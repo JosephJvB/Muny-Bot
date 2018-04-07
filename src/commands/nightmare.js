@@ -2,6 +2,9 @@ const Nightmare = require('nightmare')
 const bot = Nightmare({show: true})
 
 const rimraf = require('rimraf')
+const fs = require('mz/fs')
+
+const cheerio = require('cheerio')
 
 const janitor = (err, res) => console.log(err || 'clean files, all smiles!')
 
@@ -13,6 +16,8 @@ const janitor = (err, res) => console.log(err || 'clean files, all smiles!')
     - get all gfycat hrefs
   TODOS: //
     - get available gfycat urls
+      -> Readfile -> parse html -> select hrefs
+    - delete html file after too
     - THEN figure out scroll to get more.
 */
 
@@ -24,14 +29,19 @@ module.exports = (message, args) => {
     .click('[ng-click="loadMoreInfinite()"]')
     .html(`./logs/nightmare/${gfyUser}-gifs.html`, 'HTMLComplete')
     .end()
-    .catch(err => console.log(err))
-    .then(res => {
-      rimraf(`./logs/nightmare/${gfyUser}-gifs_files`, janitor)
-      console.log(res || 'done')
+    .catch(() => console.log('RUH ROH'))
+    // from here down can be moved out into another file
+    .then(() => rimraf(`./logs/nightmare/${gfyUser}-gifs_files`, janitor))
+    .then(() => {
+      fs.readFile(`./logs/nightmare/${gfyUser}-gifs.html`, 'utf8')
+      .then(res => {
+        // parse HTML here
+        const $ = cheerio.load(res)
+        const result = $('a')
+        console.log(result)
+      })
+      .catch(err => console.log('not nice', err))
     })
-
-    // readfile > hrefs of gifs from ${__dirname}../../logs/nightmare/${gfyUser}-gifs.html
-    // might still have to try work out the scroll thing too.
 }
 
 
