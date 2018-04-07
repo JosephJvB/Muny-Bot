@@ -1,12 +1,19 @@
 const Nightmare = require('nightmare')
 const bot = Nightmare({show: true})
 
+const rimraf = require('rimraf')
+
+const janitor = (err, res) => console.log(err || 'clean files, all smiles!')
+
 /*
   STEPS: //
     - click Load More
     - scroll to bottom somehow...
     - get html of page
     - get all gfycat hrefs
+  TODOS: //
+    - get available gfycat urls
+    - THEN figure out scroll to get more.
 */
 
 module.exports = (message, args) => {
@@ -18,10 +25,12 @@ module.exports = (message, args) => {
     .html(`./logs/nightmare/${gfyUser}-gifs.html`, 'HTMLComplete')
     .end()
     .catch(err => console.log(err))
-    .then(res => console.log(res || 'done'))
+    .then(res => {
+      rimraf(`./logs/nightmare/${gfyUser}-gifs_files`, janitor)
+      console.log(res || 'done')
+    })
 
     // readfile > hrefs of gifs from ${__dirname}../../logs/nightmare/${gfyUser}-gifs.html
-    // delete folder ${__dirname}../../logs/nightmare/${gfyUser}-gifs_files
     // might still have to try work out the scroll thing too.
 }
 
