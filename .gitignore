@@ -2,3 +2,4 @@ node_modules
 .vscode
 npm-debug.log
 no-secrets-dont-look-mum.json
+.DS_store

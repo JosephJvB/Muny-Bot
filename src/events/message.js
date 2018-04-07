@@ -41,6 +41,7 @@ module.exports = (message) => {
     case 'docs': return docs(message)
     case 'guide': return guide(message)
     case 'kick': return kick(message)
+    case 'stop':
     case 'play': return play_music(message, args)
     case 'gfycat': return gfycat(message, args)
     case 'nightmare': return nightmare(message, args)

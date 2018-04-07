@@ -1,5 +1,19 @@
 `message.channel.type` = text, dm or voice? but you cant enter text in a voice channel..
 
+HOW TO HANDLE STOPPING A YT AUDIO STREAM
+```
+var connection, dispatcher;
+
+if(message.content == "play") {
+if(!message.guild.me.voiceChannel)
+    message.member.voiceChannel.join().then((con) => connection = con);
+dispatcher = connection.playFile(blah);
+}
+
+if(message.content == "end" && dispatcher) //checks if dispatcher has been defined 
+        dispatcher.end();
+        ```
+
 "start": "pm2 start ./index.js --name 'Muny-bot' --watch",
 "stop": "pm2 delete all"
 

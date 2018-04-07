@@ -15,6 +15,7 @@ Oh by the way I'm the only one that can run the server. I didn't think that thro
 
   - !docs
   - !play + (song / artist from youtube)
+  - !stop
   - !kick + (username@mention)
   - !cleanup + (number)
   - !args OR !list-args + (arguments)
