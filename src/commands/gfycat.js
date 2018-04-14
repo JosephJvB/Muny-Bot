@@ -17,13 +17,13 @@ module.exports = (message, args) => {
   const userId = args.shift()
 
   let amount = 10
-  if(args.length) {
+  if (Number(args[0])) {
     amount = Number(args.shift())
     if (amount > 10) {
       amount = 10
       channel.send('I can only get you the last 10 gifs')
     }
-    if(amount < 1) return channel.send('No can do, buckeroo.')
+    if (amount < 1) return channel.send('No can do, buckeroo.')
   }
 
 
@@ -32,11 +32,11 @@ module.exports = (message, args) => {
   gfycat.userFeed({
     userId
   })
-    .catch(err => {
+    .catch((err) => {
       console.log('bad gfy get')
       channel.send(`No bueno hombre ${err}`)
     })
-    .then(({gfycats}) => {
+    .then(({ gfycats }) => {
       const gifs = gfycats.slice(0, amount)
       gifs.forEach((gif) => {
         const { gfyName, title } = gif
@@ -44,6 +44,10 @@ module.exports = (message, args) => {
       })
     })
 }
+
+// EMBED :
+//  <iframe src='https://gfycat.com/ifr/FocusedSaltyCranefly?controls=0&autoplay=0' frameborder='0' scrolling='no' allowfullscreen width='100%' height='100%' style='position:absolute;top:0;left:0;'/>
+
 
 // res object has keys: { cursor, gfycats, statusCode }
 

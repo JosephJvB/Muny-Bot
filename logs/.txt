@@ -50,3 +50,14 @@ BIG SMILE, NEW FILE
 @[undefined] ayoitsjoe: 2
 @[undefined] Muny-bot: cheers for the jams
 @[undefined] Muny-bot: cheers for the jams
+@[undefined] ayoitsjoe: !guide
+@[undefined] Muny-bot: https://discordjs.guide/#/ 🗺
+@[undefined] ayoitsjoe: !play the final countdown
+@[undefined] Muny-bot: <@191392978588139530>, pls join a voice channel first
+@[undefined] ayoitsjoe: !play the final countdown
+@[undefined] Muny-bot: 1. Europe - The Final Countdown (Official Video)
+
+2. Europe - The Final Countdown(with lyrics)
+
+3. Star Wars The Final Countdown
+@[undefined] ayoitsjoe: 2

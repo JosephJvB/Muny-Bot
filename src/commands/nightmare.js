@@ -1,6 +1,6 @@
 const Nightmare = require('nightmare')
-const bot = Nightmare({show: true})
 
+const bot = Nightmare({ show: true })
 const rimraf = require('rimraf')
 const fs = require('mz/fs')
 
@@ -29,18 +29,20 @@ module.exports = (message, args) => {
     .click('[ng-click="loadMoreInfinite()"]')
     .html(`./logs/nightmare/${gfyUser}-gifs.html`, 'HTMLComplete')
     .end()
-    .catch(() => console.log('RUH ROH'))
+    .catch(() => console.error('RUH ROH'))
     // from here down can be moved out into another file
     .then(() => rimraf(`./logs/nightmare/${gfyUser}-gifs_files`, janitor))
     .then(() => {
+      console.log('bye')
       fs.readFile(`./logs/nightmare/${gfyUser}-gifs.html`, 'utf8')
-      .then(res => {
+        .then((res) => {
         // parse HTML here
-        const $ = cheerio.load(res)
-        const result = $('a')
-        console.log(result)
-      })
-      .catch(err => console.log('not nice', err))
+        console.log('hi')
+          const $ = cheerio.load(res)
+          const result = $('div > a')
+          console.log(result, '??')
+        })
+        .catch(err => console.error('not nice', err))
     })
 }
 

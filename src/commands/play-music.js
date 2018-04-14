@@ -21,8 +21,8 @@ module.exports = (message, args) => {
 
   // handle stop command
   if (message.content.includes('stop')) {
-    if(!dispatcher) return channel.send('Cant stop if you never start!')
-    else return dispatcher.end()
+    // end if stream is playing.
+    return dispatcher ? dispatcher.end() : channel.send('Cant stop if you never start!')
   }
 
   // initiate youtube api search & handle selection.
