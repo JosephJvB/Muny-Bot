@@ -1,10 +1,9 @@
 const { google } = require('googleapis')
-const youtube = google.youtube('v3')
-
 const { yt_api_key } = require('../../no-secrets-dont-look-mum.json')
 const message_filter = require('./filter-messages')
 const { first_number_in_string } = require('./basic-tools')
 
+const youtube = google.youtube('v3')
 /*
   THIS FUNCTIONS JOB:
 
@@ -45,7 +44,7 @@ module.exports = (message, args) => {
           // handle users song selection
           channel.awaitMessages(response => message_filter(response, asker_name), { max: 1, time: 6800, errors: ['time'] })
             .catch(err => reject(console.error(`AWAIT_MSG_ERROR: ${err}`)))
-            .then(answer => {
+            .then((answer) => {
               // match the first number between 1-3 in user response to search results
               const songIdx = first_number_in_string(answer.first().content)
 
